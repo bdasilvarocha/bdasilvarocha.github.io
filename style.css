@@ -1,0 +1,27 @@
+body {
+    background-color: #9FA798;
+    /* paletas de cores: #86969E #8C9A9B #929E98 #959F98 #99A299 #9FA798*/
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  p , li {
+    font-family: monospace;
+    font-size: 130%;
+  }
+  p em{
+    font-size: 110%;
+  }
+  .skills strong:hover{
+    color: blanchedalmond;
+  }
+  img {
+      border-radius: 75%;
+  }
