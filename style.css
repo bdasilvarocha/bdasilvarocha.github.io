@@ -2,26 +2,57 @@ body {
     background-color: #9FA798;
     /* paletas de cores: #86969E #8C9A9B #929E98 #959F98 #99A299 #9FA798*/
   }
+
   a {
     text-decoration: none;
     color: black;
   }
-  h1 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+
   h2 {
     font-family: 'Courier New', Courier, monospace;
   }
-  p , li {
+
+  #descricao , li {
     font-family: monospace;
     font-size: 130%;
   }
-  p em{
+
+  #descrisao em{
     font-size: 110%;
   }
-  .skills strong:hover{
+
+  .skills strong:hover , .skills:nth-child(odd){
     color: blanchedalmond;
+    background-color: black;
+    border-radius: 3px;
   }
-  img {
+
+  .cabecalho {
+    background-color: #959F98;
+}
+
+  #meu-nome {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px;
+  }
+
+  #foto {
       border-radius: 75%;
+      padding: 3px;
+      background-color: black;
+      float: left;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .bloco-foto{
+      height: 175px;
+      position: relative;
+  }
+
+  #descrisao {
+      position: absolute;
+      text-align: justify;
+
   }
